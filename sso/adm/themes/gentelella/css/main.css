@@ -1,0 +1,22 @@
+.space_20 {
+    height: 20px;
+    width: 100%;
+    clear: both;
+}
+
+.label_select {
+    padding-top: 8px;
+    margin: 0 20px 0 10px;
+}
+
+.form-group select{
+    display: inline-block;
+    width: 200px;
+}
+.schedule_content .form-group{
+    width: 290px;
+}
+.schedule_content .form-group .input-group-addon,
+.schedule_content .form-group .select2-choice{
+    border-radius: 0;
+}

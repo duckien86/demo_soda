@@ -1,0 +1,34 @@
+a, a:hover{color: #1E5C9A;text-decoration: none;}
+.btnintbl button, .btnintbl html input[type=button], .btnintbl input[type=reset], .btnintbl input[type=submit]{border-width: inherit; background-color: transparent;}
+.space_10{height: 10px;width: 100%;}
+.manage_menu{padding: 15px 0;border-top: 1px solid #ddd;}
+.manage_menu ul,.manage_menu ol {margin-top: 0; margin-bottom: 10px;padding-left: 30px}
+.manage_menu #form_menu .textbox,.manage_menu #form_menu .dropdownlist {width: 180px;}
+.manage_menu #form_menu label {display: inherit;}
+.manage_menu #form_menu {border-left: 1px solid #ddd; float: left; padding: 0 15px;}
+.x_title h2{font-size: 15px; margin-top: 10px; margin-bottom: 5px;}
+.form-group input[type=text], .form-group input[type=password], .form-group .dropdownlist {width: 180px;}
+.tbl_style{border: none;}
+.grid-view{padding-top: 0;}
+.table>caption+thead>tr:first-child>th, .table>colgroup+thead>tr:first-child>th, .table>thead:first-child>tr:first-child>th, .table>caption+thead>tr:first-child>td, .table>colgroup+thead>tr:first-child>td, .table>thead:first-child>tr:first-child>td{
+    border: 1pt solid #ccc;
+    border-collapse: collapse;
+    padding: 5px 0px;
+    text-align: center;
+}
+.fillterarea .textbox, .fillterarea .dropdownlist {width: 150px;}
+.textarea{width: 310px;height: 107px;}
+.col_btn_search{width: 200px;}
+.col_btn_search input{float: right;}
+.mar_left_30{margin-left: 30px;}
+.no_pad{padding: 0;}
+.crop_preview{padding: 10px 55px 0 0;}
+#crop-banner-mobile{padding: 0 50px 0 0;}
+.thumbnail_area .panel{height: 145px;margin-bottom: 5px;}
+.thumbnail_area .panel-title{font-size: 12px;font-weight: 600;}
+.fillterarea table label{font-weight: normal;}
+.fillterarea .ct-form-control{min-width: inherit;padding: 0;}
+.select2-container .select2-choice{border: 1pt solid #ccc;padding: 1px 5px;width: 150px;height: 20px;}
+.select2-container .select2-choice > .select2-chosen{padding: 0;}
+.select2-container .select2-choice .select2-arrow b, .select2-container .select2-choice div b{background-position: 0 -3px;}
+.select2-container .select2-choice .select2-arrow, .select2-container .select2-choice div{border-left: 0;}

@@ -1,0 +1,9 @@
+{
+  "listArea":[{"province_code":"CG","district_code":"HN"}],
+  "states":{"confirm":0,"paid":"0","delivered":"10"},
+  "owner":{"sso_id":"1","phone_contact":"01649627962"},
+  "create_date":"24/07/2016",
+  "end_date":"25/07/2016",
+  "shipper_id":"123",
+  "order_id":"DH01"
+}

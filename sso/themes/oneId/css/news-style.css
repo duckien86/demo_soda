@@ -1,0 +1,16 @@
+.page-news-detail .box-comment-fb {
+    display: block !important;
+}
+
+.page-home .news-item-wrap {
+    background: white;
+}
+
+.news-feature-image img {
+    width: 100%;
+}
+@media(max-width: 425px) {
+    .video-artist-avatar{
+        height: 80px;
+    }
+}

@@ -1,0 +1,133 @@
+/* FORGET PASSWORD */
+
+#forgetpassword {
+    background: url("../images/login_bg.png") no-repeat center bottom;
+    min-height: 800px;
+    background-size: 100%;
+}
+
+#forgetpassword .forgetpassword-heading h1.title {
+    font-size: 50px;
+    font-family: 'Passion One', cursive;
+    color: white;
+    border-bottom: 1px solid #e8e8e8;
+    padding-bottom: 12px;
+}
+
+#forgetpassword .title-info {
+    font-family: "SanFranciscoDisplay-Bold";
+}
+
+#forgetpassword .forgetpassword-error {
+    margin-top: 20px;
+}
+
+#forgetpassword .modal-forgetpassword {
+    display: inline-block;
+    margin-top: 40px;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    width: 480px;
+    background-color: #fff;
+    box-shadow: 0px 5px 8px 0px #888888;
+    -moz-box-shadow: 0px 5px 8px 0px #888888;
+    -o-box-shadow: 0px 5px 8px 0px #888888;
+    min-height: 200px;
+}
+
+#forgetpassword .form-title {
+    background-color: #ed0677;
+    border-radius: 8px 8px 0 0;
+    -webkit-border-radius: 8px 8px 0 0;
+    -moz-border-radius: 8px 8px 0 0;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+#forgetpassword .form-title-description {
+    padding-top: 10px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+#forgetpassword .title-error {
+    color: red;
+}
+
+#forgetpassword .form-control {
+    width: 300px;
+    display: inline-block;
+    padding: 10px;
+    height: auto;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    background-color: #fdfdfd;
+
+}
+
+#forgetpassword #btn-forgetpassword {
+    outline: none;
+    border: none;
+    border-radius: 100px;
+    -webkit-border-radius: 100px;
+    -moz-border-radius: 100px;
+    background-color: #ed0677;
+    color: #ffffff;
+}
+
+#forgetpassword #btn-back_to_login {
+    color: #ed0677;
+    font-size: 14px;
+    text-decoration: underline;
+    margin-left: 10px;
+}
+
+/* RESPONSIVE */
+
+@media (max-width: 1440px) {
+    #forgetpassword .forgetpassword-heading h1.title {
+        margin: 30px 0px 30px;
+    }
+}
+
+@media (max-width: 800px) {
+    #forgetpassword .modal-forgetpassword {
+        width: 350px;
+    }
+
+    #forgetpassword .form-control {
+        width: 300px;
+    }
+}
+
+@media (max-width: 500px){
+    #forgetpassword{
+        min-height: 700px;
+    }
+    #forgetpassword .modal-forgetpassword {
+        margin-top: 100px;
+    }
+}
+
+@media (max-width: 360px) {
+    #forgetpassword .modal-forgetpassword {
+        margin-top: 100px;
+        width: 250px;
+    }
+
+    #forgetpassword .form-control {
+        width: 200px;
+    }
+}
+
+#btn-restore_password{
+    outline: none;
+    border: none;
+    border-radius: 100px;
+    -webkit-border-radius: 100px;
+    -moz-border-radius: 100px;
+    background-color: #ed0677;
+    color: #ffffff;
+}

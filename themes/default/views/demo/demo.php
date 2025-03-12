@@ -1,0 +1,1 @@
+<?= CHtml::image($src, '', array('style' => 'width:100%;height:auto;')) ?>

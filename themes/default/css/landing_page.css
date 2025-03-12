@@ -1,0 +1,62 @@
+.menu-landing li a:hover {
+    border-bottom: 1px solid #ed0677;
+    color: #ed0677 !important;
+}
+
+.content-landing {
+    background-color: #f2f2f2;
+    height: auto;
+
+}
+
+.content-title {
+    text-align: center;
+    color: #00a1e4;
+    font-size: 30px;
+}
+
+.landing-text-point {
+    text-align: center;
+    color: #00a1e4;
+    font-size: 16px;
+}
+
+.landing-text-point p {
+    font-size: 30px;
+    color: red;
+}
+
+.landing-data-detail {
+    float: left;
+    width: 100%;
+    height: 400px;
+}
+
+.thumbnail-landing-data {
+    width: 100%;
+    height: 81%;
+    float: left;
+
+}
+
+.point-landing-data {
+    width: 60%;
+    height: 40px;
+    background-image: url(../images/point-landing.png);
+    float: left;
+    margin-top: -40px;
+    margin-left: 4px;
+}
+
+.point-landing-data p {
+    width: 80%;
+    margin: auto;
+    font-size: 20px;
+    color: white;
+    line-height: 40px;
+}
+
+.title-landing-data {
+    text-align: center;
+    font-weight: bold;
+}

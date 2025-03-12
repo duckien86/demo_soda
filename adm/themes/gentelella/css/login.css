@@ -1,0 +1,96 @@
+@font-face {
+    font-family: SanFranciscoDisplay-Thin;
+    src: url(../fonts/SanFranciscoDisplay-Thin.otf);
+}
+
+body {
+    background-color: white !important;
+}
+
+.login-row {
+    margin-top: 2%;
+    border-bottom: 1px solid #e8e8e8;
+}
+
+.login_content {
+    font-family: "SanFranciscoDisplay-Thin";
+    margin-top: 20px;
+}
+
+.form-design {
+    background-color: #fdfdfd !important;
+    border-radius: 5px !important;
+    height: 50px !important;
+}
+
+.form-design::placeholder {
+    font-size: 16px;
+    font-style: italic;
+    color: LightGray;
+    font-family: "SanFranciscoDisplay-Thin";
+}
+
+.form-design:focus {
+    background-color: white !important;
+}
+
+#login {
+    color: #726e6e;
+    background-color: white;
+    font-size: 12px;
+    max-width: 325px;
+    margin: auto;
+}
+
+.green {
+    background-color: #34c8f1 !important;
+}
+
+.reset_pass {
+    float: right;
+    color: #d71962;
+    text-decoration: underline;
+}
+
+.separator {
+    width: 80%;
+    margin: auto
+}
+
+.logo-login {
+    text-align: center;
+    z-index: 100;
+    margin-bottom: 20px;
+}
+
+.login-element-form {
+    margin-top: 30px;
+}
+
+.button-sso-login {
+    background-color: #d71962;
+    border-color: #d71962;
+    border-radius: 30px !important;
+    width: 45% !important;
+    margin: auto;
+    height: 50px;
+    padding: 10px 20px;
+    font-size: 20px;
+}
+
+.remember-forget {
+    font-size: 14px;
+    width: 90%;
+    margin: auto;
+}
+
+.errorSummary {
+    width: 100%;
+    margin: auto;
+    margin-bottom: 15px;
+}
+
+h2 {
+    font-size: 25px !important;
+    font-weight: bold !important;
+}

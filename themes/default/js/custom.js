@@ -1,0 +1,2 @@
+$(document).ready(function(){function fixDiv(){var $cache=$('#main_right_section');if($('#bottom_content').length){var div_height=$('#bottom_content').offset().top-$('#main_right_section').height();if($(window).scrollTop()>325&&$(window).scrollTop()<div_height){$cache.css({'position':'fixed','top':'10px','width':'350px'})}else{$cache.css({'position':'relative','top':'auto'})}}}
+    $(window).scroll(fixDiv);fixDiv()})

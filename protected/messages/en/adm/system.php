@@ -1,0 +1,42 @@
+<?php
+    return array(
+        'manager_cache'             => 'Manager Cache',
+        'list_cp'                   => 'List CP',
+        'create_cp'                 => 'Create CP',
+        'view_cp'                   => 'View CP',
+        'lbl_user_of_cp'            => 'User of CP',
+        'active'                    => 'Active',
+        'inactive'                  => 'Inactive',
+        'information_option_search' => 'Information Option Search',
+        'field_required'            => 'Fields with <span class="required">*</span> are required.',
+
+        'manage_system_user'        => 'Manage System User',
+        'manage'                    => 'Manage',
+        'create_system_user'        => 'Create System User',
+        'view_system_user'          => 'View System User',
+        'update_system_user'        => 'Update System User',
+        'note_checked'              => 'Checked is Active',
+        'enable'                    => 'Enable',
+        'disable'                   => 'Disable',
+        'save'                      => 'Save',
+        'submit'                    => 'Submit',
+        'reset'                     => 'Reset',
+
+        'lbl_group_title'           => 'Group',
+        'manage_system_group'       => 'Manage System Group',
+        'create_system_group'       => 'Create System Group',
+        'view_system_group'         => 'View System Group',
+        'update_system_group'       => 'Update System Group',
+        'lbl_user_in_group'         => 'User In Group',
+
+        'lbl_permisstion_in_group'  => 'Permission In Group',
+        'lbl_controller'            => 'Controller',
+        'lbl_description'           => 'Description',
+        'lbl_view'                  => 'View',
+        'lbl_publish'               => 'Publish',
+        'lbl_add'                   => 'Add',
+        'lbl_edit'                  => 'Edit',
+        'lbl_del'                   => 'Delete',
+        'lbl_all'                   => 'All',
+    );
+?>

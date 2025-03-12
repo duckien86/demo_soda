@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+Disallow: /adm/
+Disallow: /sso/
+Sitemap: https://freedoo.vnpt.vn/sitemap.xml

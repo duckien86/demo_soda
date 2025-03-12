@@ -1,0 +1,31 @@
+#table_renueve_sim {
+    margin-top: 20px;
+}
+
+.title {
+    color: red;
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+.top_col {
+    margin-top: 20px;
+}
+
+.summary {
+    width: 30%;
+    float: right;
+    text-align: right;
+}
+
+.errorMessage {
+    text-align: left;
+    color: red;
+}
+.input-group{
+    margin-bottom: 0px;
+}
+
+.table>thead>tr>th{
+    vertical-align: middle;
+}

@@ -1,0 +1,85 @@
+/* BREADCRUMBS */
+
+#breadcrumbs {
+    background-color: #ffffff;
+    font-size: 16px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
+
+#breadcrumbs span.user {
+    color: #ed0677;
+}
+
+#breadcrumbs .breadcrumbs a, #breadcrumbs .breadcrumbs span {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#breadcrumbs .breadcrumbs a, #breadcrumbs .breadcrumbs span, #breadcrumbs .breadcrumbs i {
+    color: #ed0677;
+}
+
+#breadcrumbs .breadcrumbs a:first-child {
+    color: #444444;
+}
+
+#breadcrumbs .breadcrumbs-separator {
+    padding: 0;
+}
+
+.main_menu .breadcrumbs{
+    padding-top: 8px;
+    font-size: 14px;
+}
+.main_menu .breadcrumbs a, .main_menu .breadcrumbs span {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.main_menu .breadcrumbs a, .main_menu .breadcrumbs span, .main_menu .breadcrumbs i {
+    color: #ed0677;
+}
+
+.main_menu .breadcrumbs a:first-child {
+    color: #444444;
+}
+
+.main_menu .breadcrumbs-separator {
+    padding: 0;
+}
+
+.main_menu .welcome-user{
+    margin-top: 0;
+    padding-top: 8px;
+    font-size: 14px;
+}
+.main_menu span.user {
+    color: #ed0677;
+}
+
+/* User change password form*/
+#tuser-changepassword-form .form-control{
+    width: 200px;
+}
+
+.filter_area{
+    border-bottom: 2px solid #ddd;
+    padding: 1px 5px 6px;
+    margin-bottom: 20px;
+}
+
+.report{
+    margin-bottom: 50px;
+}
+
+.report h5{
+    color: red;
+}
+
+.ui-datepicker-month{
+    width: 55% !important;
+}
+.ui-datepicker-year{
+    width: 35% !important;
+}

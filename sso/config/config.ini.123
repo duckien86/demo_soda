@@ -1,0 +1,25 @@
+[project]
+name = 'VNPT Online'
+framework = '/../../framework/yiilite.php'   
+[db]
+connectionString = "mysql:host=192.168.100.6;dbname=vsb_sso;port=3307"
+username = 'vsb'
+password = 'Centech@k17Vsb@Vinaphone'
+tablePrefix = 'tbl_'
+[debug_mode]
+state = true
+;display_errors = 0
+display_errors = 30719
+[domain_sso]
+sso = 'http://10.2.0.107:8694/sso/'
+pid = '001'
+pid_aff = '002'
+[domain_related]
+forum       = 'http://10.2.0.107:8694/vnpt_online/wordpress'
+affiliate   = 'http://118.70.177.77:8694/affiliates/'
+[redis]
+hostname = '192.168.100.5'
+port = '6379'
+[api]
+hostname = 'http://192.168.100.9:8288'
+sms_gw = 'http://192.168.100.9:8585/smsmt'

@@ -1,0 +1,18 @@
+uploads/*
+# Yii Framework specific
+*/runtime/*
+*/assets/*
+*/social/*
+*/tourist/*
+
+# IDE files
+.idea/
+.vscode/
+
+# Log files
+*.log
+*.log.*
+
+# Temporary files
+*.swp
+*.bak
